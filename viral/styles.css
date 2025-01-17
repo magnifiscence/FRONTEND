@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #f6820a;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    margin-left: 20px;
+    max-height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a.cta {
+    background: white;
+    color: #f6820a;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('path/to/hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero .cta-button {
+    background: white;
+    color: #f6820a;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.services, .about, .case-studies, .contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services .service {
+    display: inline-block;
+    margin: 20px;
+    width: 250px;
+}
+
+.services .service img {
+    max-width: 100px;
+}
+
+.case-studies .case-study {
+    margin-bottom: 20px;
+}
+
+.mockup img {
+    width: 200px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact label, .contact input, .contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact .cta-button {
+    background: #f6820a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background: #f6820a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer form {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+footer input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer .cta-button {
+    background: white;
+    color: #f6820a;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
